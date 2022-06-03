@@ -1,18 +1,3 @@
-# v2ray-heroku
-
-> ~~貌似新建的app有些需要科学访问~~，如果需要，请使用cloudflare worker CDN 或者 cloudflare tunnel 套一层。
-
-> 切换到最新的 VLESS 协议。具体客户端配置请看 config 章节。
-
-> v2ray-heroku 是我为了体验 github action 的产物，也是我的主力 backup，我会日常维护它。加入或者修改一些我认为好的配置。但这一般会导致客户端配置需要些许修改。 不过具体配置都会体现在 [详细 VLESS websocket 客户端配置](#vless-websocket-客户端配置)
-
-> 有问题请开 issue 或者 discussions。
-
-> 很多人反馈 heroku 封号，我自己的还好用，请大家反馈，如果大部分人都被封号，我就准备开个新坑，反正免费服务也有其他家。。只是我懒，同时维护多个实在没有时间。
-
-## **请大家不要跑速度测试，请用 youtube 测试。**
-
-
 ## Change log
 
 应需求，加上首页伪装，每次部署都会随机生成首页，如果你有想法，请自己把想要的html放入到 项目html 文件，然后后续 action 部署会自动拿到。
